@@ -43,7 +43,7 @@ Contains the 3D models of the external components and their supports
 - **D435i**
   - **D435i_case.sldprt**: Realsense D435i protective case
   - **Intel_RealSense_Depth_Camera_D435.SLDASM**: 3D model of the camera distributed by Realsense [CAD Files (intelrealsense.com)](https://dev.intelrealsense.com/docs/cad-files)
-  - **D435i_support.sldprt**: Camera stand that fits on a bolt pattern of the pioneer's top plate. The protective case is compatible with the support.
+  - **D435i_support.sldprt**: Camera stand that fits on the bolt pattern of the pioneer's top plate. The protective case is compatible with the support.
   - **D435i.SLDASM**: Assembly of the camera, its protective case and its support.
   - **protected_D435i.SLDASM**: Assembly of the camera and its protective case.
   
@@ -51,25 +51,22 @@ Contains the 3D models of the external components and their supports
   
   - **D455_case.sldprt**: Realsense D455 protective case
   - **Intel_RealSense_D455_CAD_external_v2.SLDASM**: 3D model of the camera distributed by Realsense [CAD Files (intelrealsense.com)](https://dev.intelrealsense.com/docs/cad-files)
-  - **D455_support.sldprt**: Camera stand that fits on a bolt pattern of the pioneer's top plate. The protective case is compatible with the support.
+  - **D455_support.sldprt**: Camera stand that fits on the bolt pattern of the pioneer's top plate. The protective case is compatible with the support.
   - **D455_assembly.SLDASM**: Assembly of the camera, its protective  case and its support.
   - **protected_D455.SLDASM**: Assembly of the camera and its protective case.
   
 - **motor_stop.SLDPRT**
   
-  - Cad of the pushbutton used to stop the motor power. Is mounted in a 22mm hole in Pioneer's top plate.
+  - Cad of the mushroom button used to disconnect the motor's power. Is mounted in a 22mm hole on the Pioneer's top plate.
   
 - **Lidar**
   - **rplidar_simplified.SLDPRT**: 3D model of a simplified Rplidar A2M8.
-  - **lidar_support_april_tags.SLDPRT**: Lidar stand. Our Pioneer 2Dx has already a bolt pattern on its top plate that we reused to save us time. Its sides were designed to install a plate or a sheet with AprilTtags on them.
-  
-- **Others**:
+  - **lidar_support_april_tags.SLDPRT**: Lidar stand. We reused the already present bolt partern on the top plate of our Pionneer 2Dx to save time. The sides were designed to install a plate or sheet with AprilTags on them.
 
-  - **motor_stop.SLDPRT**: Approximated model of the mushroom button used to control motor power. 
+- **top_plate_modifications.SLDDRW**: Drawings of the additional holes that needs to be drilled on the Pioneer's top plate. One hole is for the mushroom button and the other one is an M3X0.5 tapped hole for the camera support. 
 
-  - **top_plate_modifications.SLDDRW**: Drawings of the additional holes that needs to be drilled on the Pioneer's top plate. One is for the the mushroom button and the other one is an M3X0.5 tapped hole for the camera supports. 
+  ![](top_plate_holes.PNG)
 
-    ![](C:\Users\etienne\OneDrive - USherbrooke\ecole\Uni\swarm\Pioneer-Mechanical-Update\top_plate_holes.PNG)
 
 ### internal
 
@@ -77,7 +74,7 @@ Contains the 3D models of the internal components, their supports and big suppor
 
 - **Battery**
 
-  ![](C:\Users\etienne\OneDrive - USherbrooke\ecole\Uni\swarm\Pioneer-Mechanical-Update\battery.PNG)
+  ![](battery.PNG)
 
   - **GOOLOO.SLDPRT**: Model of the battery. It's placed at the back of the robot since its the most accessible place to remove it and recharge it. 
   - **battery_holder_center.SLDPRT** , **battery_holder_side.SLDPRT** and **battery_stopper**: supports fixed on the internal plate. The battery sits in the supports to block its motion. An additional velcro strip can be installed in the middle support to strap the battery thus preventing it from moving up and down.
@@ -100,7 +97,7 @@ Contains the 3D models of the internal components, their supports and big suppor
     - **relay.SLDPRT**: Relay
     - **relay_bracket.SLDPRT**: Bracket to hold the relay at a 90 degrees angle. This help with the electrical harness.
     - **relay_assembly.SLDASM**: Assembly of the relay and its bracket
-  - **roboclaw_2X30A.SLDASM**: Motor controller CAD. Got it on : [RoboClaw 2x30A Motor Controller (basicmicro.com)](https://www.basicmicro.com/RoboClaw-2x30A-Motor-Controller_p_9.html)
+  - **roboclaw_2X30A.SLDASM**: Motor controller CAD. Available at : [RoboClaw 2x30A Motor Controller (basicmicro.com)](https://www.basicmicro.com/RoboClaw-2x30A-Motor-Controller_p_9.html)
 
   
 
@@ -118,17 +115,17 @@ Contains the 3D models of the internal components, their supports and big suppor
 
   - **supported_pi.SLDASM**: Assembly of the side pannel and the Raspberry Pi 4 support plate.
 
-  - **fan_support.SLDPRT**: Support for the 5V fan that comes with the [LABIST Raspberry Pi 4 case]([LABISTS Case for Raspberry Pi 4](https://labists.com/products/raspberry-pi-4-case-kit)). Screwed with the screws that came with the kit.
+  - **fan_support.SLDPRT**: Support for the 5V fan that comes with the [LABIST Raspberry Pi 4 case]([LABISTS Case for Raspberry Pi 4](https://labists.com/products/raspberry-pi-4-case-kit)). Uses the screws provided with the kit.
 
   - **fan_support_m3.SLDPRT**: Support for the 5V [CANAKIT Pi fan](https://www.canakit.com/raspberry-pi-fan.html). Screwed with M3 fasteners.
 
-    ![](C:\Users\etienne\OneDrive - USherbrooke\ecole\Uni\swarm\Pioneer-Mechanical-Update\fan_support.PNG)
+    ![](fan_support.PNG)
 
   **Under Voltage Lock Out's (UVLO) side pannel**
 
-  ![](C:\Users\etienne\OneDrive - USherbrooke\ecole\Uni\swarm\Pioneer-Mechanical-Update\uvlo.PNG)
+  ![](uvlo.PNG)
 
-  - **UVLO_MODULE_PCB REV Project_PCB_Rev.SLDASM**: CAD of the Under Voltage Lock Out module made by the SwarmUS electrical team. Used to cut power whenever the battery is below a selected voltage threshold. [Link]([Electrical/04 - UVLO_MODULE at master · SwarmUS/Electrical (github.com)](https://github.com/SwarmUS/Electrical/tree/master/04 - UVLO_MODULE)) to project.
+  - **UVLO_MODULE_PCB REV Project_PCB_Rev.SLDASM**: CAD of the Under Voltage Lock Out module made by the SwarmUS electrical team. Used to disconnect the battery whenever it is below the selected voltage threshold. [Link]([Electrical/04 - UVLO_MODULE at master · SwarmUS/Electrical (github.com)](https://github.com/SwarmUS/Electrical/tree/master/04 - UVLO_MODULE)) to project.
   - **side_pannel_uvlo.SLDPRT**: Model of a panel that can be installed on the right-side slot of the pioneer to the UVLO printed circuit board with M3 screws . Used to support the UVLO printed circuit board and to have a placeholders for the starting pushbutton, the main power switch and a LED.
   - **supported_uvlo.SLDASM**: Assembly of the side pannel and the UVLO.
 
@@ -140,7 +137,7 @@ Pioneer 3DX model that I took from:
 
 I had to redraw the motors(*internal/GM9236S01.SLDPRT*) since the motors were misaligned with their mounting hole in the chassis. 
 
-I only used the main part of the chassis since all the other stuffs are not on our real Pioneer 2Dx.
+I only used the main part of the chassis since all the other components are not on our real Pioneer 2Dx.
 
 ### Outputs
 
