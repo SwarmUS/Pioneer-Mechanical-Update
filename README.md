@@ -32,13 +32,13 @@ In this assembly, the Realsense D435i and its support are used but an additional
 
 Note: The wheels and the front sonar array are not included in the assembly since they are not useful to the sensors and electronics layouts. 
 
-![alt text](pioneer_assembly.PNG)
+![alt text](.images/pioneer_assembly.PNG)
 
 ### external
 
 Contains the 3D models of the external components and their supports
 
-![alt text](external_components.PNG)
+![alt text](.images/external_components.PNG)
 
 - **D435i**
   - **D435i_case.sldprt**: Realsense D435i protective case
@@ -65,7 +65,7 @@ Contains the 3D models of the external components and their supports
 
 - **top_plate_modifications.SLDDRW**: Drawings of the additional holes that needs to be drilled on the Pioneer's top plate. One hole is for the mushroom button and the other one is an M3X0.5 tapped hole for the camera support. 
 
-  ![](top_plate_holes.PNG)
+  ![](.images/top_plate_holes.PNG)
 
 
 ### internal
@@ -74,14 +74,14 @@ Contains the 3D models of the internal components, their supports and big suppor
 
 - **Battery**
 
-  ![](battery.PNG)
+  ![](.images/battery.PNG)
 
   - **GOOLOO.SLDPRT**: Model of the battery. It's placed at the back of the robot since its the most accessible place to remove it and recharge it. 
   - **battery_holder_center.SLDPRT** , **battery_holder_side.SLDPRT** and **battery_stopper**: supports fixed on the internal plate. The battery sits in the supports to block its motion. An additional velcro strip can be installed in the middle support to strap the battery thus preventing it from moving up and down.
 
 - **Support plate**
 
-  ![alt text](support_plate.PNG)
+  ![alt text](.images/support_plate.PNG)
 
   - **internal_support_plate_hole.SLDPRT** : Laser cut plate used to screw the components in place.
   - **small_plate_support.SLDPRT**: Small stands used to support the plate near the back of the robot. There are 4 of them and they are screwed on the bolt pattern of the bottom plate of the robot's chassis.
@@ -89,7 +89,7 @@ Contains the 3D models of the internal components, their supports and big suppor
 
 - **internal_electronics_plate.SLDASM**: Assembly of the circuits components and the support plate.
 
-  ![alt text](plate_components.PNG)
+  ![alt text](.images/plate_components.PNG)
 
   - **bornier.SLDPRT**: Screw terminals block.
   - **REG_313080006.SLDPRT**: 313080006 5V regulator
@@ -103,7 +103,7 @@ Contains the 3D models of the internal components, their supports and big suppor
 
 - **Computer's side pannel**
 
-  ![alt text](side_pannel.PNG)
+  ![alt text](.images/side_pannel.PNG)
 
   - **computer.SLDPRT**: Box that represents the footprint of  Raspberry Pi 4 and a Jetson Nano ( sizes of their longest side with height of a Jetson). The CAD of the Raspberry Pi 4 is very heavy to load so this box is used as a lighter representation.
 
@@ -119,11 +119,11 @@ Contains the 3D models of the internal components, their supports and big suppor
 
   - **fan_support_m3.SLDPRT**: Support for the 5V [CANAKIT Pi fan](https://www.canakit.com/raspberry-pi-fan.html). Screwed with M3 fasteners.
 
-    ![](fan_support.PNG)
+    ![](.images/fan_support.PNG)
 
   **Under Voltage Lock Out's (UVLO) side pannel**
 
-  ![](uvlo.PNG)
+  ![](.images/uvlo.PNG)
 
   - **UVLO_MODULE_PCB REV Project_PCB_Rev.SLDASM**: CAD of the Under Voltage Lock Out module made by the SwarmUS electrical team. Used to disconnect the battery whenever it is below the selected voltage threshold. [Link]([Electrical/04 - UVLO_MODULE at master · SwarmUS/Electrical (github.com)](https://github.com/SwarmUS/Electrical/tree/master/04 - UVLO_MODULE)) to project.
   - **side_pannel_uvlo.SLDPRT**: Model of a panel that can be installed on the right-side slot of the pioneer to the UVLO printed circuit board with M3 screws . Used to support the UVLO printed circuit board and to have a placeholders for the starting pushbutton, the main power switch and a LED.
