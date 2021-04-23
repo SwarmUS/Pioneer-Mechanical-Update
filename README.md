@@ -85,8 +85,7 @@ Contains the 3D models of the internal components, their supports and big suppor
 
   - **internal_support_plate_hole.SLDPRT** : Laser cut plate used to screw the components in place.
   - **small_plate_support.SLDPRT**: Small stands used to support the plate near the back of the robot. There are 4 of them and they are screwed on the bolt pattern of the bottom plate of the robot's chassis.
-  - **big_plate_support.SLDPRT**: Big stand that can be used to support the front of the plate inside the robot. This part is optional because the four small supports are able to maintain the plate stable.
-
+  
 - **internal_electronics_plate.SLDASM**: Assembly of the circuits components and the support plate.
 
   ![alt text](.images/plate_components.PNG)
@@ -143,5 +142,5 @@ I only used the main part of the chassis since all the other components are not 
 
 - STL files of the custom made part in order to 3D print them.
 - DXF files of the custom 2D plate. A .swg and a .pdf was generated for each .dxf files with 0.001" paths with the colorRGB(255, 0, 0) . This can be used with a laser cutting machine.
-- PDF file of the Pioneer top plate modification's drawing. It indicates the position of the M3x0.5 tapped hole that needs to be added for the camera support and the position and the size of the mounting hole for the mushroom button.
+- PDF files of the Pioneer top plate modification's drawing and the main assembly drawings. It indicates the position of the M3x0.5 tapped hole that needs to be added for the camera support and the position and the size of the mounting hole for the mushroom button.
 
