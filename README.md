@@ -3,7 +3,7 @@
 This repository contains the 3D model of a modified Pioneer 2-DX used by the SwarmUS project.
 
 ## Requirements
-- Solidworks (I use a 2019-2020 academic version)
+- Solidworks 2021
 
 ### Repository structure
 
