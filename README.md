@@ -5,6 +5,14 @@ This repository contains the 3D model of a modified Pioneer 2-DX used by the Swa
 ## Requirements
 - Solidworks 2021
 
+## Getting started
+
+This repository contains submodule of 3D model parts. Right after cloning the project and prior to opening any assembly, run the following command:
+
+```
+git submodule update --init --recursive
+```
+
 ### Repository structure
 
 ------
