@@ -1,0 +1,3 @@
+[submodule "external/HiveBoard-BeeBoard-Mechanical"]
+	path = external/HiveBoard-BeeBoard-Mechanical
+	url = https://github.com/SwarmUS/HiveBoard-BeeBoard-Mechanical.git
