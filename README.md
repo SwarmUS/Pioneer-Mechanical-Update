@@ -75,6 +75,14 @@ Contains the 3D models of the external components and their supports
 
   ![](.images/top_plate_holes.PNG)
 
+-**Board supports**
+
+  - **HB_Plate.SLDPRT**: support the Hiveboard under the lidar.
+  - **pionneer_bbmount_droit.SLDPRT**: supports the beeboard on the right side of the pionneer.
+  - **pionneer_bbmount_gauche.SLDPRT**: supports the beeboard on the left side of the pionneer.  
+  - **Lidar_support_over_HB.SLDPRT** support for lider over the Hiveboard. All holes are for M3 screws and nuts.
+
+
 
 ### internal
 
