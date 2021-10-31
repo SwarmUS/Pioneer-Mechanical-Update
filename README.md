@@ -41,13 +41,13 @@ In this assembly, the Realsense D435i and its support are used but an additional
 
 Note: The wheels and the front sonar array are not included in the assembly since they are not useful to the sensors and electronics layouts. 
 
-![alt text](.images/pioneer_assembly.PNG)
+![alt text](pioneer_assembly.PNG)
 
 ### external
 
 Contains the 3D models of the external components and their supports
 
-![alt text](.images/external_components.PNG)
+![alt text](external_components.PNG)
 
 - **D435i**
   - **D435i_case.sldprt**: Realsense D435i protective case
