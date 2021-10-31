@@ -26,6 +26,7 @@ Pioneer-Mechanical-Update
 |   	├── external
 │   	└── internal
 ├── external
+│   └── HiveBoard-BeeBoard-Mechanical
 ├── internal
 ├── Pioneer_originalRobotBase
 ├── pioneer2DX.SLDASM
@@ -68,19 +69,20 @@ Contains the 3D models of the external components and their supports
   - Cad of the mushroom button used to disconnect the motor's power. Is mounted in a 22mm hole on the Pioneer's top plate.
   
 - **Lidar**
+  
   - **rplidar_simplified.SLDPRT**: 3D model of a simplified Rplidar A2M8.
-  - **lidar_support_april_tags.SLDPRT**: Lidar stand. We reused the already present bolt partern on the top plate of our Pionneer 2Dx to save time. The sides were designed to install a plate or sheet with AprilTags on them.
-
+- **lidar_support_april_tags.SLDPRT**: Lidar stand. We reused the already present bolt partern on the top plate of our Pionneer 2Dx to save time. The sides were designed to install a plate or sheet with AprilTags on them.
+  
 - **top_plate_modifications.SLDDRW**: Drawings of the additional holes that needs to be drilled on the Pioneer's top plate. One hole is for the mushroom button and the other one is an M3X0.5 tapped hole for the camera support. 
 
   ![](.images/top_plate_holes.PNG)
 
--**Board supports**
-
-  - **HB_Plate.SLDPRT**: support the Hiveboard under the lidar.
-  - **pionneer_bbmount_droit.SLDPRT**: supports the beeboard on the right side of the pionneer.
-  - **pionneer_bbmount_gauche.SLDPRT**: supports the beeboard on the left side of the pionneer.  
-  - **Lidar_support_over_HB.SLDPRT** support for lider over the Hiveboard. All holes are for M3 screws and nuts.
+- **Board supports**
+  - **HiveBoard-BeeBoard-Mechanical**: Submodule that contains the 3D model of the HiveBoard and BeeBoard PCBs and their default cases.
+    - **HB_Plate.SLDPRT**: support the Hiveboard under the lidar.
+    - **pioneer_bbmount_droit.SLDPRT**: supports the beeboard on the right side of the pioneer.
+    - **pioneer_bbmount_gauche.SLDPRT**: supports the beeboard on the left side of the pioneer.  
+    - **Lidar_support_over_HB.SLDPRT** support for lidarover the Hiveboard. All holes are for M3 screws and nuts.
 
 
 
